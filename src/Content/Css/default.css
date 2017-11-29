@@ -1,0 +1,115 @@
+﻿body 
+{
+    background: #fff url(../Images/bg-body-1024.png) repeat-y top center;
+    font: 13.34px/normal helvetica, arial, freesans, clean, sans-serif;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#logo
+{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+#header-links {
+    position: relative;
+    display: inline;
+    left: 240px;
+}
+#header-links A
+{
+    color: #0000FF;
+    margin-left: 0.5em;
+}
+
+#github 
+{
+    clear: right;
+    padding: 12px 18px 0 0;
+    float: right;
+}
+#github img {
+    height:64px;
+}
+
+h1
+{
+    border-top: 4px solid #AAA;
+    font-size: 170% !important;
+    margin-top: 1.5em;
+    padding-top: 0.5em;
+}
+
+h2
+{
+    border-top: 4px solid #E0E0E0 !important;
+    font-size: 150% !important;
+    margin-top: 1.5em !important;
+    padding-top: 0.5em !important;
+}
+h2 A
+{
+    color: #039;
+}
+
+.nuget-badge pre {
+    background-color: #202020;
+    border: 4px solid #c0c0c0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #6e6e6e;
+    color: #e2e2e2;
+    font: 1.5em 'andale mono', 'lucida console', monospace;
+    line-height: 1.5em;
+    overflow: auto;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.endpoints h3
+{
+    border-top: 1px solid #E0E0E0 !important;
+    padding: .5em 0 0 0;
+}
+
+
+h4 B
+{
+    color: #555;
+    padding: 0 3px;
+}
+
+input[type=text]
+{
+    width: 100px;
+}
+
+td
+{
+    padding: 0 10px;
+}
+
+em
+{
+    font-size: 90%;
+    color: #666;
+}
+
+code {
+    background-color: ghostWhite !important;
+    border: 1px solid #DEDEDE !important;
+    color: #444 !important;
+    font-size: 12px !important;
+    line-height: 1.5em !important;
+    margin: 1em 0 !important;
+    overflow: auto !important;
+    padding: 0.5em !important;
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+}
+
+
