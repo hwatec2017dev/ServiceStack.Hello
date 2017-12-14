@@ -1,16 +1,15 @@
-﻿body 
-{
+﻿body {
     background: #fff url(../Images/bg-body-1024.png) repeat-y top center;
     font: 13.34px/normal helvetica, arial, freesans, clean, sans-serif;
     width: 940px;
     margin: 0 auto;
 }
 
-#logo
-{
+#logo {
     position: relative;
     top: 5px;
     left: 5px;
+    text-decoration: none;
 }
 
 #header-links {
@@ -18,14 +17,12 @@
     display: inline;
     left: 240px;
 }
-#header-links A
-{
+#header-links A {
     color: #0000FF;
     margin-left: 0.5em;
 }
 
-#github 
-{
+#github {
     clear: right;
     padding: 12px 18px 0 0;
     float: right;
